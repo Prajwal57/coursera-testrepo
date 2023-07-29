@@ -1,0 +1,98 @@
+
+html {
+   overflow-y: auto;
+   overflow-x: hidden; 
+}
+.box { width: 1629px; height:120px ; border: 2px solid white;  background-color: whitesmoke; font-size: 20px; box-shadow: 0px 10px 10px -10px rgb(164, 158, 158); }
+.head { margin-left: 200px; }
+span { color: rgb(19, 152, 204); }
+
+.back {background-color:whitesmoke; margin-top:5px; }
+.container2 { display: flex; margin-left: 1180px; padding: 50px; font-size:20px}
+.round {border: 2px solid rgb(19, 152, 204); width:30px; height: 30px;  background-color: rgb(19, 152, 204);  border-radius: 50%;}
+.plus { margin-left: 4px; font-size: 40px; margin-top: -6.5px;}
+.sidetext { margin-top: 10px; margin-left: 5px }
+
+
+.more {display: flex; flex-wrap: wrap; width: 1300px; gap: 20px; margin-left:200px; margin-top:30px }
+.mat { padding: 40px; font-size: 20px;}
+.more1 { border: 2px solid rgb(235, 228, 228); width: 350px; height: 300px; background-color: rgb(232, 229, 229); border-radius: 10px; color: grey }
+.more1:hover {box-shadow: 3px 0px 5px 3px grey}
+input[type="checkbox"]:checked { 
+    border: 2px solid #a9a9a9; 
+    width: 15px; 
+    height: 15px; 
+    }
+
+
+/*this is css for index2.html file */
+
+   .realpar {filter: blur(5px);}
+
+
+
+
+   iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(5px);
+    pointer-events: none;
+    overflow: hidden;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+      .parant2 { margin-left: 30px; }
+      .add { margin-left: 390px;}
+      input[type="submit"] { background-color: rgb(55, 182, 246); border: 2px solid rgb(55, 182, 246); border-radius: 3px;}
+      input[type="text"] { background-color: rgb(218, 222, 226); border: 2px solid white; border-radius: 3px ; width: 400px; height: 30px}
+
+
+      footer {
+        background-color: #F5F5F5;
+        height: 50px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .container {
+        margin: auto;
+        max-width: 900px;
+        display: flex;
+        justify-content: space-between;
+        /*width: 90%;*/
+      }
+      
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      a:hover {
+        color: #666;
+      }
+      
+      span {
+        font-size: 24px;
+        margin-right: 10px;
+      }
+
+
+
+
+
+
+
